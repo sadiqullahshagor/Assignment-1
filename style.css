@@ -1,4 +1,6 @@
 .body{
+    margin: 0;
+    padding: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
 .container{
@@ -23,7 +25,7 @@ padding-left: 10px;
 .span-color{
     color: #2d8de7;
 }
-.explore-btn,.read-btn{
+.explore-btn,.read-btn,.community-button{
    padding: 8px 16px;
    background-image: linear-gradient(to right, #f78a4b 0%, #e9a35e  100%);
    color: #fff;
@@ -31,9 +33,7 @@ padding-left: 10px;
    border-radius: 4px;
    font-size: 18px;
 }
-.explore-btn:hover,.read-btn{
-    background-image: linear-gradient(to right, #e9a35e 0%, #f78a4b  100%);
-}
+
 .container .img{
     width: 60%;
     margin: auto;
@@ -108,4 +108,67 @@ width: 70%;
 }
 /* Know our Global Community */
 
+.container3{
+width: 90%;
+margin: auto;
+margin-top: 100px;
+}
 
+.comunity{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.comunity h1{
+    font-size: 36px;
+}
+.comunity p{
+    font-size: 18px;
+    line-height: 30px;
+}
+.community-img{
+    text-align: end;
+}
+.comunity img{
+    width: 70%;
+    text-align: end;
+}
+
+/* contact info */
+.contact-area{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.contact-area h1{
+    text-align: center;
+}
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.contact{
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 0 20px;
+    padding: 20px 30px;
+    border-radius: 16px;
+}
+.contact img{
+width: 30%;
+margin: auto;
+}
+
+/* footer  */
+.footer{
+    background: #000;
+    padding: 10px 0;
+    margin-top: 100px;
+}
+.footer h1, .footer p{
+    text-align: center;
+    color: #fff;
+}
