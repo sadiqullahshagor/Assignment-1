@@ -1,0 +1,111 @@
+.body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+}
+.top-heading{
+    border-left: 5px solid #2d8de7;
+padding-left: 10px;
+    font-size: 60px;
+    line-height: 1.5;
+}
+.text-area{
+    margin: auto;
+}
+.text-area p{
+    width: 350px;
+}
+.span-color{
+    color: #2d8de7;
+}
+.explore-btn,.read-btn{
+   padding: 8px 16px;
+   background-image: linear-gradient(to right, #f78a4b 0%, #e9a35e  100%);
+   color: #fff;
+   border: 0;
+   border-radius: 4px;
+   font-size: 18px;
+}
+.explore-btn:hover,.read-btn{
+    background-image: linear-gradient(to right, #e9a35e 0%, #f78a4b  100%);
+}
+.container .img{
+    width: 60%;
+    margin: auto;
+}
+.img img{
+    width: 100%;
+}
+
+/* mission area */
+.mission-area{
+width: 85%;
+margin: auto;
+}
+.mission-area h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.all-mission{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.misson{    
+width: 80%;
+    border-radius: 18px;
+    padding: 40px 20px;
+    margin: 0 10px;
+}
+.misson1{
+    background: #edf5f6;
+}
+.misson2{
+    background: #ffeeee;
+}
+.misson3{
+    background: #fbc3a2;
+}
+.misson img{
+    width: 35%;
+}
+
+/* develop whithout limits */
+.container2{
+    width: 90%;
+    margin: auto;
+    background-image: url(images/circle.png);
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: top 70px left 50px;
+    margin-top: 100px;
+}
+.develop{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center
+    
+}
+.develop img{
+    text-align: center;
+width: 70%;
+
+}
+.develop h1{
+ 
+    font-size: 36px;
+}
+.develop p{
+    font-size: 18px;
+    line-height: 30px;
+}
+/* Know our Global Community */
+
+
